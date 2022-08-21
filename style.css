@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow:hidden;
+    font-family:Tahoma;
+}
+body{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+#toolbar{
+    width:99%;
+    height:100px;
+    background:white;
+    position:fixed;
+    bottom:-50px;
+    border-radius:100%;
+    box-shadow:-1px -1px 6px #B9B9B9;
+}
+#title{
+    font-size:20px;
+    color:#424242;
+    display:block;
+    margin:auto 5px;
+    font-weight:300;
+    font-family:Times New Roman;
+}
+#dataFrame{
+    width:100%;
+    height:100%;
+    overflow:scroll;
+    position:relative;
+    padding-bottom:50px;
+}
+.fetch{
+width:100px;
+height:35px;
+margin:auto;
+display:block;
+}
+embed{
+    width:100%;
+    height:auto;
+}
+.pa{
+        width:98%;
+        margin:5px auto;
+        height:auto;
+        background:#BDBDBD;
+}
+.number{
+    width:40px;
+    height:35px;
+    border-right:1px solid #433572;
+    white-space:pre-line;
+    font-family:Times New Roman;
+    padding:5px;
+    box-sizing:border-box;
+}
+.desc{
+    grid-area:2/1/span 1/span 2;
+    text-indent:30px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    color:#777777;
+    font-size:15px;
+}
+#DataSearch{
+    width:100%;
+    height:100%;
+    background:red;
+    position:fixed;
+    transform:scale(0);
+    top:0px;
+}
+h1{
+    box-sizing:border-box;
+    padding-left:10px;
+    font-family:Times New Roman;
+    padding-top:10px;
+    font-weight:400;
+}
+.partA{
+    width:98%;
+    height:70px;
+    border-radius:5px;
+    display:grid;
+    grid-template-columns:50px auto ;
+    position:relative;
+}
+#search{
+    width:50px;
+    height:50px;
+    margin:auto;
+    position:relative;
+    padding-right:5px;
+}#a{
+    width:30px;
+    height:30px;
+    border:1px solid black;
+    border-radius:50px;
+    display:block;
+    float:right;
+    position:relative;
+    margin:3px;
+}#b{
+    width:1px;
+    height:27px;
+    background:black;
+    display:block;
+    margin:25px auto;
+    transform:rotate(48deg);
+    border:none;
+}
